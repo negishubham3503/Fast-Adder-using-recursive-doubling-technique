@@ -6,6 +6,7 @@ wire cout;
 
 cla16bit moda(a, b, Sum, cout);
 initial begin
+    // change the inputs as per your need
     a = 16'b0000000001010110;
     b = 16'b0000000001011101;
 end
